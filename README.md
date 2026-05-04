@@ -2,6 +2,11 @@
 
 Windows batch scripts that wrap FFmpeg to convert 180° side-by-side VR video into flat 2D, and to downscale ordinary clips to 1080p with NVENC.
 
+## Documentation
+
+- [`docs/`](docs/) — full markdown documentation: getting started, folder layout, configuration, FFmpeg pipeline, per-script reference, troubleshooting.
+- [`report/report.pdf`](report/report.pdf) — project report (PDF) covering the goal, architecture, FFmpeg pipeline, and design trade-offs. Source in [`report/report.tex`](report/report.tex); compile instructions in [`report/README.md`](report/README.md).
+
 ## Requirements
 
 - Windows (scripts are CMD `.bat`)

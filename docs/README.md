@@ -18,6 +18,7 @@ The project has no build system, no dependencies to install, and no source code 
 | Understand the FFmpeg filter chain | [ffmpeg-pipeline.md](ffmpeg-pipeline.md) |
 | Look up what a specific script does | [scripts/](scripts/) |
 | Diagnose an issue | [troubleshooting.md](troubleshooting.md) |
+| Read the architecture / design write-up | [`../report/report.pdf`](../report/report.pdf) (PDF; source `.tex` alongside) |
 
 ## Per-script reference
 
