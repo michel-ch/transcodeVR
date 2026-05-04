@@ -1,0 +1,49 @@
+# Video files — never commit, these are large and not project source
+*.mp4
+*.MP4
+*.mkv
+*.MKV
+*.avi
+*.AVI
+*.mov
+*.MOV
+*.webm
+*.flv
+*.wmv
+*.m4v
+*.ts
+
+# Working directories (input + output scratch space for the scripts)
+vr/
+nonevr/
+input/
+output/
+temp/
+
+# FFmpeg concat lists (written and then deleted by VR2Normal.bat;
+# may be left behind if the script is interrupted)
+*_concat.txt
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs and crash dumps
+*.log
+*.dmp
